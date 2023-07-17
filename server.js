@@ -1,0 +1,11 @@
+const express=require("express");
+
+const app=express()
+
+app.get("/",(req,res)=>{
+    res.send("<h1>Hello Welcome To My Server</h1>")
+})
+
+app.listen(3400,()=>{
+    console.log("Done\n")
+})
